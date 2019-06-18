@@ -57,6 +57,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 message: 'eat your brocoli, kid'
             });
         break;
+        case 'roast':
+        bot.sendMessage({
+            to: channelID,
+            message: 'chi, go to sleep'
+        });
+        break;
         case 'help':
         bot.sendMessage({
             to: channelID,
